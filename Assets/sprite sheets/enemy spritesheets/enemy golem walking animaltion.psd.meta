@@ -1,0 +1,769 @@
+fileFormatVersion: 2
+guid: 6ecf47a60c598b043b659ab232766966
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8205268700862963626
+    second: enemy golem walking animaltion_0
+  - first:
+      213: 23409801532531020
+    second: enemy golem walking animaltion_1
+  - first:
+      213: -1497342350624026300
+    second: enemy golem walking animaltion_2
+  - first:
+      213: 195084303679143999
+    second: enemy golem walking animaltion_3
+  - first:
+      213: -3329746218687738143
+    second: enemy golem walking animaltion_4
+  - first:
+      213: -6294428295351670586
+    second: enemy golem walking animaltion_5
+  - first:
+      213: 2597316570898182432
+    second: enemy golem walking animaltion_6
+  - first:
+      213: 5538283829939634985
+    second: enemy golem walking animaltion_7
+  - first:
+      213: 1259123146616571332
+    second: enemy golem walking animaltion_8
+  - first:
+      213: 8793330322985702035
+    second: enemy golem walking animaltion_9
+  - first:
+      213: 3212635191449768376
+    second: enemy golem walking animaltion_10
+  - first:
+      213: -8770532662184718965
+    second: enemy golem walking animaltion_11
+  - first:
+      213: 5190951979892703883
+    second: enemy golem walking animaltion_12
+  - first:
+      213: -7610700152894512322
+    second: enemy golem walking animaltion_13
+  - first:
+      213: -3857281045014943123
+    second: enemy golem walking animaltion_14
+  - first:
+      213: 418466977945953806
+    second: enemy golem walking animaltion_15
+  - first:
+      213: 8521077555384129368
+    second: enemy golem walking animaltion_16
+  - first:
+      213: 6111979343400788923
+    second: enemy golem walking animaltion_17
+  - first:
+      213: 3120560201560753572
+    second: enemy golem walking animaltion_18
+  - first:
+      213: 8209613454270081229
+    second: enemy golem walking animaltion_19
+  - first:
+      213: -5069896751494357730
+    second: enemy golem walking animaltion_20
+  - first:
+      213: -8058628727768107084
+    second: enemy golem walking animaltion_21
+  - first:
+      213: 5433450039668203003
+    second: enemy golem walking animaltion_22
+  - first:
+      213: 5701429365333452738
+    second: enemy golem walking animaltion_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_0
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1617
+        width: 212
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf5199f868fed170800000000000000
+      internalID: 8205268700862963626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_1
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1617
+        width: 212
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41eb98271b235000800000000000000
+      internalID: 23409801532531020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_2
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1617
+        width: 212
+        height: 306
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44118ebb01f583be0800000000000000
+      internalID: -1497342350624026300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_3
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 1617
+        width: 213
+        height: 306
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30cc0ef32415b200800000000000000
+      internalID: 195084303679143999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_4
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1619
+        width: 212
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eecae2b47d5ac1d0800000000000000
+      internalID: -3329746218687738143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_5
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 1619
+        width: 212
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8656f80d2b5a8a0800000000000000
+      internalID: -6294428295351670586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_6
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 1619
+        width: 214
+        height: 306
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0213f99f8a58b0420800000000000000
+      internalID: 2597316570898182432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_7
+      rect:
+        serializedVersion: 2
+        x: 3725
+        y: 1619
+        width: 214
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92387dcdccfebdc40800000000000000
+      internalID: 5538283829939634985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_8
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1107
+        width: 214
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c58d8aa4dd497110800000000000000
+      internalID: 1259123146616571332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_9
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1107
+        width: 212
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392db36f65f280a70800000000000000
+      internalID: 8793330322985702035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_10
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 1105
+        width: 212
+        height: 306
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b158437fa2959c20800000000000000
+      internalID: 3212635191449768376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_11
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1103
+        width: 212
+        height: 306
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dc483130fc84680800000000000000
+      internalID: -8770532662184718965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_12
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 1103
+        width: 210
+        height: 306
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b828d97a257f90840800000000000000
+      internalID: 5190951979892703883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_13
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 1103
+        width: 212
+        height: 306
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3326beb88c516690800000000000000
+      internalID: -7610700152894512322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_14
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 1103
+        width: 210
+        height: 308
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a6909835f287ac0800000000000000
+      internalID: -3857281045014943123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_15
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 1105
+        width: 212
+        height: 306
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0623b2df71bec500800000000000000
+      internalID: 418466977945953806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_16
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 593
+        width: 212
+        height: 306
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8579938d3e2f04670800000000000000
+      internalID: 8521077555384129368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_17
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 593
+        width: 212
+        height: 306
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3ede584dc12d450800000000000000
+      internalID: 6111979343400788923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_18
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 595
+        width: 212
+        height: 306
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5004a48f47e4b20800000000000000
+      internalID: 3120560201560753572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_19
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 595
+        width: 214
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc82905b0f76ee170800000000000000
+      internalID: 8209613454270081229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_20
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 595
+        width: 214
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d954714cb14a9b0800000000000000
+      internalID: -5069896751494357730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_21
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 593
+        width: 212
+        height: 306
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7bf985edff92090800000000000000
+      internalID: -8058628727768107084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_22
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 593
+        width: 212
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd514ff50e776b40800000000000000
+      internalID: 5433450039668203003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem walking animaltion_23
+      rect:
+        serializedVersion: 2
+        x: 3733
+        y: 593
+        width: 214
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c76ea0eccb8f1f40800000000000000
+      internalID: 5701429365333452738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b100199b4d2fd554795223d07f8b5521
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      enemy golem walking animaltion_0: 8205268700862963626
+      enemy golem walking animaltion_1: 23409801532531020
+      enemy golem walking animaltion_10: 3212635191449768376
+      enemy golem walking animaltion_11: -8770532662184718965
+      enemy golem walking animaltion_12: 5190951979892703883
+      enemy golem walking animaltion_13: -7610700152894512322
+      enemy golem walking animaltion_14: -3857281045014943123
+      enemy golem walking animaltion_15: 418466977945953806
+      enemy golem walking animaltion_16: 8521077555384129368
+      enemy golem walking animaltion_17: 6111979343400788923
+      enemy golem walking animaltion_18: 3120560201560753572
+      enemy golem walking animaltion_19: 8209613454270081229
+      enemy golem walking animaltion_2: -1497342350624026300
+      enemy golem walking animaltion_20: -5069896751494357730
+      enemy golem walking animaltion_21: -8058628727768107084
+      enemy golem walking animaltion_22: 5433450039668203003
+      enemy golem walking animaltion_23: 5701429365333452738
+      enemy golem walking animaltion_3: 195084303679143999
+      enemy golem walking animaltion_4: -3329746218687738143
+      enemy golem walking animaltion_5: -6294428295351670586
+      enemy golem walking animaltion_6: 2597316570898182432
+      enemy golem walking animaltion_7: 5538283829939634985
+      enemy golem walking animaltion_8: 1259123146616571332
+      enemy golem walking animaltion_9: 8793330322985702035
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

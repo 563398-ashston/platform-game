@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: 73f36efdb22f1904cbe2907322716072
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6830771300793137972
+    second: enemy golem idle blink spritesheet_0
+  - first:
+      213: 3190977876698035548
+    second: enemy golem idle blink spritesheet_1
+  - first:
+      213: -5750316070220448468
+    second: enemy golem idle blink spritesheet_2
+  - first:
+      213: -7699269599024326178
+    second: enemy golem idle blink spritesheet_3
+  - first:
+      213: 4958620968409944532
+    second: enemy golem idle blink spritesheet_4
+  - first:
+      213: -4916165693299971591
+    second: enemy golem idle blink spritesheet_5
+  - first:
+      213: 3184572900243442933
+    second: enemy golem idle blink spritesheet_6
+  - first:
+      213: -6508581648725135482
+    second: enemy golem idle blink spritesheet_7
+  - first:
+      213: -844900243978988814
+    second: enemy golem idle blink spritesheet_8
+  - first:
+      213: 5978480540133967749
+    second: enemy golem idle blink spritesheet_9
+  - first:
+      213: 2964948318086540083
+    second: enemy golem idle blink spritesheet_10
+  - first:
+      213: -3209021664543625425
+    second: enemy golem idle blink spritesheet_11
+  - first:
+      213: -3525431597811493196
+    second: enemy golem idle blink spritesheet_12
+  - first:
+      213: -6118472266273244600
+    second: enemy golem idle blink spritesheet_13
+  - first:
+      213: -8832777120039558871
+    second: enemy golem idle blink spritesheet_14
+  - first:
+      213: 6832312096818151135
+    second: enemy golem idle blink spritesheet_15
+  - first:
+      213: -3979406277026576400
+    second: enemy golem idle blink spritesheet_16
+  - first:
+      213: 7750725232175404278
+    second: enemy golem idle blink spritesheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1619
+        width: 212
+        height: 300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b35bd9e46cbce50800000000000000
+      internalID: 6830771300793137972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1619
+        width: 212
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5577bae871a84c20800000000000000
+      internalID: 3190977876698035548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1619
+        width: 212
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d3a482006c230b0800000000000000
+      internalID: -5750316070220448468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 1619
+        width: 212
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9d0389713b62590800000000000000
+      internalID: -7699269599024326178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 1619
+        width: 214
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1d0e5bf7f80d440800000000000000
+      internalID: 4958620968409944532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 1619
+        width: 212
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9a4e1595546cbb0800000000000000
+      internalID: -4916165693299971591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 1619
+        width: 211
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc88502e20e13c20800000000000000
+      internalID: 3184572900243442933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3723
+        y: 1619
+        width: 212
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fac14797fdca5a0800000000000000
+      internalID: -6508581648725135482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1107
+        width: 212
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2ddfe54bf4644f0800000000000000
+      internalID: -844900243978988814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1107
+        width: 212
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587454b3064d7f250800000000000000
+      internalID: 5978480540133967749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1107
+        width: 212
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ba0fc49cc952920800000000000000
+      internalID: 2964948318086540083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 1107
+        width: 212
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f28585cc34773d0800000000000000
+      internalID: -3209021664543625425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 1107
+        width: 212
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6128ce3a6231fc0800000000000000
+      internalID: -3525431597811493196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 1107
+        width: 212
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a34b014e1d61ba0800000000000000
+      internalID: -6118472266273244600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 3211
+        y: 1107
+        width: 340
+        height: 338
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92128d3e10cab6580800000000000000
+      internalID: -8832777120039558871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3723
+        y: 1107
+        width: 340
+        height: 338
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde337527af31de50800000000000000
+      internalID: 6832312096818151135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 595
+        width: 212
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f70fd8231f46c8c0800000000000000
+      internalID: -3979406277026576400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy golem idle blink spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 595
+        width: 212
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4d877988b109b60800000000000000
+      internalID: 7750725232175404278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 153958ae99774614bb4aa440c890e8b4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      enemy golem idle blink spritesheet_0: 6830771300793137972
+      enemy golem idle blink spritesheet_1: 3190977876698035548
+      enemy golem idle blink spritesheet_10: 2964948318086540083
+      enemy golem idle blink spritesheet_11: -3209021664543625425
+      enemy golem idle blink spritesheet_12: -3525431597811493196
+      enemy golem idle blink spritesheet_13: -6118472266273244600
+      enemy golem idle blink spritesheet_14: -8832777120039558871
+      enemy golem idle blink spritesheet_15: 6832312096818151135
+      enemy golem idle blink spritesheet_16: -3979406277026576400
+      enemy golem idle blink spritesheet_17: 7750725232175404278
+      enemy golem idle blink spritesheet_2: -5750316070220448468
+      enemy golem idle blink spritesheet_3: -7699269599024326178
+      enemy golem idle blink spritesheet_4: 4958620968409944532
+      enemy golem idle blink spritesheet_5: -4916165693299971591
+      enemy golem idle blink spritesheet_6: 3184572900243442933
+      enemy golem idle blink spritesheet_7: -6508581648725135482
+      enemy golem idle blink spritesheet_8: -844900243978988814
+      enemy golem idle blink spritesheet_9: 5978480540133967749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
