@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class enemyscript : MonoBehaviour
+public class enemyScript : MonoBehaviour
 {
     bool isGrounded;
     public LayerMask groundLayerMask;

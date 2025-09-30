@@ -47,6 +47,20 @@ public class Movement : MonoBehaviour
             print("do jump");
         }
 
+
+
+        if (yvel >= 0.1f)
+        {
+            anim.SetBool("isJumping", true);
+            print("player jumped");
+        }
+        else
+        {
+            anim.SetBool("isJumping", false);
+        }
+
+
+
         if (xvel >= 0.1f || xvel <= -0.1f)
         {
             anim.SetBool("isWalking", true);
