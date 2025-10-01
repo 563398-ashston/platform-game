@@ -4,6 +4,7 @@ using UnityEngine.Rendering;
 public class enemyScript : MonoBehaviour
 {
     bool isGrounded;
+    public PlayerScript playerScript;
     public LayerMask groundLayerMask;
     Animator anim;
     Rigidbody2D rb;
@@ -16,14 +17,15 @@ public class enemyScript : MonoBehaviour
         groundLayerMask = LayerMask.GetMask("Ground");
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-
         xvel = 5;
-
     }
 
     // Update is called once per frame
     void Update()
     {
+        print("Enemy says: the player has" + playerScript.lives + "lives");
+
+
         if (xvel < 0)
         {
             print("I am moving left");
@@ -48,8 +50,9 @@ public class enemyScript : MonoBehaviour
             }
         }
 
-        rb.linearVelocity = new Vector2 (xvel, 0);
+        rb.linearVelocity = new Vector2(xvel, 0);
     }
+
 
     public bool ExtendedRayCollisionCheck(float xoffs, float yoffs)
     {

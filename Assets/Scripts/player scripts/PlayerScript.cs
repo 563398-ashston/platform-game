@@ -2,22 +2,23 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Android;
 
-public class Movement : MonoBehaviour
+public class PlayerScript : MonoBehaviour
 {
-
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     Rigidbody2D rb;
     Animator anim;
+    HelperScript helper;
     public LayerMask groundLayerMask;
     bool isGrounded;
+    public float lives;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         groundLayerMask = LayerMask.GetMask("Ground");
+        helper = gameObject.AddComponent<HelperScript>();
     }
 
     // Update is called once per frame
@@ -30,23 +31,37 @@ public class Movement : MonoBehaviour
 
 
 
+        if (Input.GetKey("d"))
+        {
+            xvel = 7;
+        }
+        else
+        {
+            xvel = 0;
+        }
+
         if (Input.GetKey("a"))
         {
             xvel = -7;
         }
-        rb.linearVelocity = new Vector3(xvel, yvel, 0);
 
-        if (Input.GetKey("d"))
-        {
-            xvel = +7;
-        }
-
-        if (Input.GetKeyDown(KeyCode.LeftAlt) || Input.GetKeyDown(KeyCode.Space) && isGrounded )
+        if (Input.GetKeyDown(KeyCode.LeftAlt) || Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             yvel = 20;
-            print("do jump");
         }
 
+        rb.linearVelocity = new Vector3(xvel, yvel, 0);
+
+
+        if (xvel < 0)
+        {
+            helper.DoFlipObject(true);
+        }
+
+        if (xvel > 0)
+        {
+            helper.DoFlipObject(false);
+        }
 
 
         if (yvel >= 0.1f)
@@ -71,23 +86,9 @@ public class Movement : MonoBehaviour
             anim.SetBool("isWalking", false);
         }
 
-        
-        if (xvel > 0)
-        {
-            gameObject.transform.localScale = new Vector3 (1, 1, 1);
-        }
-
-            rb.linearVelocity = new Vector3(xvel, yvel, 0);
-
-        if (xvel < 0)
-        {
-            gameObject.transform.localScale = new Vector3(-1, 1, 1);
-        }
-
-        rb.linearVelocity = new Vector3(xvel, yvel, 0);
 
 
-        if( ExtendedRayCollisionCheck (0,0) == true)
+        if (ExtendedRayCollisionCheck(0, 0) == true)
         {
             isGrounded = true;
         }
@@ -99,6 +100,8 @@ public class Movement : MonoBehaviour
         print("isgrounded=" + isGrounded);
 
     }
+
+    
 
     public bool ExtendedRayCollisionCheck(float xoffs, float yoffs)
     {
